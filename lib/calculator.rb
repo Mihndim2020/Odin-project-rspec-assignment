@@ -1,3 +1,5 @@
+require "date"
+
 class Calculator
 
   def add(a, b, c = 0)
