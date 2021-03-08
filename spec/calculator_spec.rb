@@ -1,6 +1,7 @@
 require './lib/calculator'
 
 describe Calculator do
+  before { calculator = Calculator.new }
   describe "#add" do 
     it "returns the sum of two numbers" do 
       calculator = Calculator.new
